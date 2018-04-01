@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pavan.fingerprintauth">
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application>
+        <activity
+            android:name="com.pavan.fingerprintauth.FingerprintAuthenticationActivity"
+            android:theme="@style/MyTheme" />
+    </application>
+
+</manifest>
